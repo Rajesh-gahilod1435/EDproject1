@@ -1,0 +1,416 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Contenair{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;  
+    background-color: #3D087B;
+} 
+
+/* GRID */
+.grid-1{
+    width: 40%;
+    height: 90%;
+    display: grid;
+    gap: 8px;
+}
+.whatch-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.from-con{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FFFFFF;
+    line-height: 50px;
+    padding: 5px;
+    font-size: 1.5vw;
+}
+
+#Good-Wishes{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #b997e0de;
+    color: whitesmoke;
+    /* font-size: 1.5vw; */
+    /* font-size: 100%; */
+}
+
+.btn-tex{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FORM WAKEUP STYLE  */
+
+.wake-con{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.svg{
+    width: 6%;
+}
+
+
+.lunch-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nap-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.night-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WekeUpText{
+    width: 15vw;
+    /* margin-left: 5px; */
+    font-size: 1.8vw;
+}
+.LunchText{
+    width: 15vw;
+    /* margin-left: 5px; */
+    font-size: 1.8vw;
+}
+.NapText{
+    width: 15vw;
+    /* margin-left: 5px; */
+    font-size: 1.8vw;
+
+}
+.NightText{
+    width: 15vw;
+    /* margin-left: 5px; */
+    font-size: 1.8vw;
+
+
+}
+
+
+select{
+    width: 18vw;
+    font-size: 1.5vw;
+    color: #9140B5;
+}
+/* TEXT */
+.text{
+    background-color: #b95ebfbc;
+    color: #F25CFE;
+    width: 20vw;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#alarm-set{
+    position: relative;
+    bottom: 10px;
+    width: 20vw;
+    height: 7vh;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #be25f5,#FC5EFF);
+}
+
+/* SECOND GRID CONTENAIR STYLE  */
+
+.grid-2{
+    height: 90%;
+    width: 40%;
+    display: grid;
+    gap: 20px;
+}
+
+/* TIMER  */
+.live-timer{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    /* font-size:100%; */
+}
+.timingfonction {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+}
+.timeline{
+    width: 40vw;
+    height: 50px;
+    color: #8E53F0;
+    background-color: #FFFFFF;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Righteous';
+    font-size: 2vw;
+
+}
+
+.blank01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 70px;
+    z-index: 3;
+    text-align: center;
+    opacity: 0.99;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.blank02{
+    background-color:#EDEDED;
+    width: 35vw;
+    height: 75px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.blank03{
+    width: 30vw;
+    height: 80px;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #F6E2FF;
+}
+
+
+.hours{
+    width:50px;
+    height: 50px;
+    background-image: url(./hrs.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ampm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-image: url(./ampm.png);
+}
+.time00{
+    color: #8E53F0;
+}
+
+/* IMAGE CONTENAIR  */
+
+.bg-img{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .bg-Img-style{
+    width: 40vw; 
+    height: 50vh;  
+    background-size: cover;    
+
+} 
+.img{
+    background-image: url(./gir.svg);
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover; 
+
+}
+/*----------------- MEDIAQURY---------------------- */
+
+ @media (min-width:300px) and (max-width:600px){
+    .Contenair{
+        width: 100%;
+        height: 100%;  
+        display: block;
+        grid-template-columns:1fr;
+        grid-template-rows:repeat( 8 auto);
+        justify-content: center;
+        row-gap: 200px;
+        gap: 50px;
+
+    }
+    .grid-1{
+        width: 100%;
+        font-size: 3vh;
+        gap: 20px;
+
+    }
+
+    .whatch-img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+    }
+    
+    .from-con{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        line-height: 10vw;
+        font-size:100%;
+    }
+    
+.WekeUpText{
+    width: 100%;
+    font-size: 100%;
+}
+.LunchText{
+    width: 100%;
+    font-size: 100%;
+}
+.NapText{
+    width: 100%;
+    font-size: 100%;
+
+}
+.NightText{
+    width: 100%;
+    font-size: 100%;
+}
+
+select{
+    font-size: 100%;
+    width: 100%;
+}
+    #Good-Wishes{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        font-size: 100%;
+    }
+    .btn-tex{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    } 
+    .text{
+        font-size: 100%;
+        width: 100%;
+        height: 100%;
+    }  
+    .btn-tex{
+        justify-content: stretch;
+    }
+    #alarm-set{
+        width: 50vw;
+        position: relative;
+        /* top: 0px; */
+        bottom: 8px;
+        font-size: 100%;
+    }
+
+   
+    #mon{
+        width:4%;
+    }
+    .svg{
+        width: 5%;
+    }
+    .WekeUpText{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .LunchText{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .NapText{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .NightText{
+        width: 100%;
+        margin-left: 50px;
+    }
+    select{
+        width: 35vw;
+    }
+    
+    /* SECOND GRID CONTENAIR STYLE   */
+
+.grid-2{
+   width: 100%;
+    font-size: 100%;
+    gap: 5px;
+}
+/* TIMER  */
+.live-timer{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    margin-top: 20px;
+}
+.hours{
+    width:10.2vw;
+    height: 50px;
+}
+.ampm{
+    width:10.5vw;
+    height: 50px;
+}
+
+.blank01{
+    width: 100%;
+}
+.blank02{
+    width: 98%;
+}
+.blank03{
+    width: 95%;
+}
+
+.timingfonction {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    /* width:100%; */
+    height: 100%;
+    margin-top: 20px;
+    font-size: 100%;
+}
+.timeline{
+    width: 100%;
+    font-size: 100%;
+}
+.bg-img{
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+
+ .bg-Img-style{
+    width: 100%; 
+    background-size: cover;
+} 
+.img{
+    width: 100%; 
+}
+
+}
